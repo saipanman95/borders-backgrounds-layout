@@ -7,6 +7,9 @@ body {
     padding-left: 100px;
     padding-right: 100px;
     background: #f1f1f1;
+    background-image: url("images/galaxy-header-4012709962.jpg");
+    background-attachment: fixed;
+    
 }
 
 .header-container {
@@ -25,7 +28,13 @@ body {
 .header {
     padding: 30px;
     text-align: center;
-    background: white;
+    background: rgb(252, 46, 46);
+    background-image: url(images/blue_header_s-2354044202.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    /* opacity: .2; */
+    color: white;
 }
 
 .header h1 {
